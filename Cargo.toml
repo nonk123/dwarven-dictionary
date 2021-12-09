@@ -1,0 +1,11 @@
+[package]
+name = "dwarven-dictionary"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = { git = "https://github.com/yewstack/yew/" }
+lazy_static = "1.4.0"
+regex = "1.5.4"
+web-sys = { version = "0.3", features = [ "HtmlInputElement" ] }
+gloo-console = "0.2.1"
